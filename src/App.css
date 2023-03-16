@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.sidebar {
+  width: 230px;
+  border: 1px solid turquoise;
 }
 
 .App-logo {

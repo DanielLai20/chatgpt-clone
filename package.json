@@ -1,5 +1,5 @@
 {
-  "name": "chatgpt-clone",
+  "name": "chatgpt-serverside",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
