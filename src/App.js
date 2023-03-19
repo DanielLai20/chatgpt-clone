@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <aside className= "sidebar">
-        <h1>aside</h1>
+        <div className= "new-chat-button">
+        <span>+</span>
+          New Chat 
+        </div>
       </aside>
       <section className= "chatbar">
 
