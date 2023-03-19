@@ -1,16 +1,18 @@
 .App {
   text-align: center;
   display: flex;
+  background-color: #282c34;
+  color: white;
 }
 
 .sidebar {
-  width: 230px;
-  border: 1px solid turquoise;
+  width: 250px;
+  border:1px solid turquoise;
 }
 
 .chatbar {
   flex:1;
-  border: 1px solid turquoise;
+  border:1px solid turquoise;
 }
 
 .App-logo {
