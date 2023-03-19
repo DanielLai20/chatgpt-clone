@@ -8,6 +8,11 @@
   border: 1px solid turquoise;
 }
 
+.chatbar {
+  flex:1;
+  border: 1px solid turquoise;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
