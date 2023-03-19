@@ -12,7 +12,10 @@ function App() {
         </div>
       </aside>
       <section className= "chatbar">
-
+        <div className= "chat-input">
+          <textarea className= "chat-input-text">
+          </textarea>
+        </div>
       </section>
     </div>
   );
