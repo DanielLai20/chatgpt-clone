@@ -1,7 +1,9 @@
+require("dotenv").config()
+
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
     organization: "org-GYHfmZnwYoHfN6brTIiIGOST",
-    apiKey: "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",
+    apiKey: process.env.REACT-APP-API-KEY,
 });
 const openai = new OpenAIApi(configuration);
 
